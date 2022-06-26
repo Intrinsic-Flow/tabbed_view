@@ -49,7 +49,7 @@ class _TabbedViewExamplePageState extends State<TabbedViewExamplePage> {
   Widget build(BuildContext context) {
 
     TabbedView tabbedView = TabbedView(controller: _controller);
-    Widget w = TabbedViewTheme(child: tabbedView, data: TabbedViewThemeData.mobile());
+    Widget w = TabbedViewTheme(child: tabbedView, data: TabbedViewThemeData.askif());
     return Scaffold(
         body: Container(child: w, padding: EdgeInsets.all(32)));
   }
